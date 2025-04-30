@@ -1,11 +1,12 @@
+import { Outlet } from "react-router-dom";
 import "./index.scss";
 
 const App = () => {
   return (
     <div className="app">
-      <p>Mahamad farzana</p>
+      <Outlet />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
