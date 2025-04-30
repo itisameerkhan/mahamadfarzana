@@ -1,3 +1,5 @@
+$primary-blue-1: #4F46E5;
+
 .hero {
     p {
         font-family: "overusedgrotesk";
@@ -5,6 +7,13 @@
         font-weight: 500;
         text-align: center;
     }
+
+    span {
+        font-family: "overusedgrotesk";
+        color:$primary-blue-1;
+        font-weight: bold;
+    }
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
